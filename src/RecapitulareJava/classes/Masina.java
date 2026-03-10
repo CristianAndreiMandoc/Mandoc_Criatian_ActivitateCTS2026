@@ -13,14 +13,16 @@ public class Masina extends VehiculDeBaza implements IVehicul{
         this.pornita = pornita;
     }
 
-    public Masina(String marca, int anFabricare) {
-        super(marca, anFabricare);
-    }
+
 
     @Override
     public void afisare() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Masina: ").append(model)
+        final StringBuilder sb = new StringBuilder("Masina{");
+        sb.append("model='").append(model).append('\'');
+        sb.append(", vitezaMaxima=").append(vitezaMaxima);
+        sb.append(", pornita=").append(pornita);
+        sb.append('}');
+       System.out.println(sb);
 
     }
 

@@ -3,7 +3,7 @@ package RecapitulareJava.classes;
 public interface IVehicul {
 
 
-    void afisare()
+    void afisare();
      int  vitezaMaxima();
 
 }
