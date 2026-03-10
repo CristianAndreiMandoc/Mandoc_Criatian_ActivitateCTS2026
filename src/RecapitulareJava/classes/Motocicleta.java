@@ -18,6 +18,16 @@ public class Motocicleta extends VehiculDeBaza{
         this.culoare = culoare;
     }
 
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Motocicleta{");
+        sb.append("numeSofer='").append(numeSofer).append('\'');
+        sb.append(", culoare='").append(culoare).append('\'');
+        sb.append('}');
+        return sb.toString();
+    }
+
     @Override
     public void accelereaza(int valoare) {
     }
