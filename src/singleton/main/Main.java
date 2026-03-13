@@ -8,5 +8,5 @@ public class Main {
         System.out.println(agentie1);
         Agentie agentie2 = Agentie.getInstance("karpaton", 10);
         System.out.println(agentie2);
-    }
+      }
 }
